@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="ru">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>My project</title>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+      <link rel="stylesheet" href="style.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+      <link rel="icon" href="">
+   </head>
+   <body>
+      <!-- navbar -->
+      <nav class="navbar sticky-top navbar-expand-lg">
+         <div class="container-fluid">
+            <img src="D:\Мои файлы\my documents\IT\CANSHECODE\конкурс\logos\van.png" alt="logo" height="25px">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+               <ul class="navbar-nav">
+                  <li class="nav-item">
+                     <a class="nav-link active" aria-current="page" href="#info">О городе</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="#places">Лучшие места</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="#center">Центр города</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="#restaurant">Рестораны</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="#location">Локация</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="#">
+                     <img src="D:\Мои файлы\my documents\IT\CANSHECODE\конкурс\Lang\en.png" alt="en" height="25px"> 
+                     </a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="#">
+                     <img src="D:\Мои файлы\my documents\IT\CANSHECODE\конкурс\Lang\ch.png" alt="ch" height="25px"> 
+                     </a>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </nav>
+      <!-- video -->
+      <video autoplay muted loop id="video">
+         <source src="D:\Мои файлы\my documents\IT\CANSHECODE\конкурс\Video\van1.mp4" type="video/mp4">
+      </video>
+      <!-- Accordion -->
+      <div class="accordion" id="accordionExample">
+         <div class="accordion-item" id="info">
+            <h2 class="accordion-header" id="headingOne">
+               <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+               О городе
+               </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+               <div class="accordion-body">
+                  <b>Ванку́вер</b> (англ. Vancouver) — город на западном побережье <i><b>Канады</b></i>, крупнейший населённый пункт провинции <b>Британская Колумбия</b> и третий по величине в Канаде. Исследовательская группа <i>Economist Intelligence Unit</i> (EIU) британского издания <i>The Economist</i>  трижды присваивала Ванкуверу звание <b>«лучшего города Земли»</b>.
+               </div>
+            </div>
+         </div>
+         <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+               Население
+               </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+               <div class="accordion-body">
+                  В агломерации <b>Большой Ванкувер,</b> проживает свыше 2.5 млн. чел. — это третья по величине агломерация в Канаде. <b>Ванкувер</b>  является наиболее этнически и лингвистически разнообразным городом страны — <i>52 % его жителей считают своим родным языком не английский.</i>  Мягкий тёплый климат, сочетание высокогорных и приморских ландшафтов, транспортное обеспечение, комфортные условия проживания привлекают сюда всё больший поток иммигрантов, в первую очередь из Юго-Восточной Азии. В городе существуют значительные по площади китайские кварталы. 
+               </div>
+            </div>
+         </div>
+         <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+               Климат
+               </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+               <div class="accordion-body">
+                  Климат <b>Ванкувера</b>  умеренный, тёплый. Осадков выпадает много (кроме летних месяцев). Зима <i>мягкая и дождливая.</i>  Летние месяцы, как правило, достаточно сухие и тёплые, а в июле-августе наблюдается умеренная засуха. Остальное время года, напротив, богато осадками, особенно период с октября по март. <br>
+                  В июле и августе максимальная дневная температура составляет в среднем <b>22 °C,</b>  доходя иногда до <b>30 °C.</b>  Нижняя планка температуры в Ванкувере опускается ниже <b>0 °C</b>  в среднем 46 дней в году, а ниже <b>−10 °C</b>  — два дня в году. <i> В среднем 4,5 дня в году температура остаётся ниже нуля по Цельсию и днём.</i>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- best places -->
+      <div class="album py-5 bg-light" id="places">
+         <div class="container">
+            <h2 class="heading">Лучшие места Ванкувера</h2>
+            <br>
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+               <div class="col">
+                  <div class="card shadow-sm">
+                     <img src="D:\Мои файлы\my documents\IT\CANSHECODE\конкурс\Pics\Capilano-Suspension-Bridge.jpg" class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                     <title>Placeholder</title>
+                     <rect width="100%" height="100%" fill="#55595c"></rect>
+                     <text x="50%" y="50%" fill="#eceeef" dy=".3em"><br><b>Подвесной мост Капилано</b> </text>
+                     <div class="card-body">
+                        <p class="card-text">Самый длинный висячий мост привлекает внимание не только туристов, но и местных жителей. Максимально надежный и прочный, он тянется на высоте 70 метров над рекой Капилано. Вход охраняют тотемы-столбы в форме мифических душ племени сквомиш и различных животных.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                           <div class="btn-group">
+                              <a href="https://account.travel/place/capilano-suspension-bridge-2.html" target="_blank">
+                              <button type="button" class="btn btn-sm btn-outline-danger">Подробно</button>
+                              </a>
+                           </div>
+                           <small class="text-muted">Ванкувер</small>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col">
+                  <div class="card shadow-sm">
+                     <img src="queen-elizabeth.jpg" class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                     <title>Placeholder</title>
+                     <rect width="100%" height="100%" fill="#55595c"></rect>
+                     <text x="50%" y="50%" fill="#eceeef" dy=".3em"><br><b>Парк королевы Елизаветы</b></text>
+                     <div class="card-body">
+                        <p class="card-text">На территории более чем в 50 га располагаются рестораны и кафе, теннисные корты и розарий, свадебный павильон и площадка для игры в гольф, восхитительный зимний сад, созданный из более 1500 пузырей из оргстекла. Планируя путешествие в национальный королевский парк, выделяйте на его осмотр минимум один целый день.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                           <div class="btn-group">
+                              <a href="https://planetofhotels.com/guide/ru/kanada/vankuver/park-korolevy-elizavety" target="_blank">
+                              <button type="button" class="btn btn-sm btn-outline-danger">Подробно</button>
+                              </a>
+                           </div>
+                           <small class="text-muted">Ванкувер</small>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col">
+                  <div class="card shadow-sm">
+                     <img src="Gastown.jpg" class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                     <title>Placeholder</title>
+                     <rect width="100%" height="100%" fill="#55595c"></rect>
+                     <text x="50%" y="50%" fill="#eceeef" dy=".3em"><br><b>Район Гастаун</b></text>
+                     <div class="card-body">
+                        <p class="card-text">История этого старинного городского квартала началась более 150 лет тому назад. Любой турист, планирующий посещение Канады и Ванкувера, должен обязательно пройтись по его древним улочкам. Вы сможете посетить известный Китайский квартал, сквер Кленового дерева и англиканскую церковь Христа.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                           <div class="btn-group">
+                              <a href="https://planetofhotels.com/guide/ru/kanada/vankuver/gastaun" target="_blank">
+                              <button type="button" class="btn btn-sm btn-outline-danger">Подробно</button>
+                              </a>
+                           </div>
+                           <small class="text-muted">Ванкувер</small>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col">
+                  <div class="card shadow-sm">
+                     <img src="muzej.jpg" class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                     <title>Placeholder</title>
+                     <rect width="100%" height="100%" fill="#55595c"></rect>
+                     <text x="50%" y="50%" fill="#eceeef" dy=".3em"><br><b>Городской музей Ванкувера</b></text>
+                     <div class="card-body">
+                        <p class="card-text">На сбор коллекции этой достопримечательности Ванкувера ушло свыше сотни лет. Купите билет, и вы сможете узнать о множестве достижений мировой культуры, истории города и окрестностей. Здесь же находится планетарий и астрономическая экспозиция Космического центра Макмилана.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                           <div class="btn-group">
+                              <a href="https://ru.wikipedia.org/wiki/%D0%9C%D1%83%D0%B7%D0%B5%D0%B9_%D0%92%D0%B0%D0%BD%D0%BA%D1%83%D0%B2%D0%B5%D1%80%D0%B0" target="_blank">
+                              <button type="button" class="btn btn-sm btn-outline-danger">Подробно</button>
+                              </a>
+                           </div>
+                           <small class="text-muted">Ванкувер</small>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col">
+                  <div class="card shadow-sm">
+                     <img src="Stanley-Park.jpg" class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                     <title>Placeholder</title>
+                     <rect width="100%" height="100%" fill="#55595c"></rect>
+                     <text x="50%" y="50%" fill="#eceeef" dy=".3em"><br><b>Парк Стэнли</b></text>
+                     <div class="card-body">
+                        <p class="card-text">Одна из особенностей этого знаменитого парка заключается в том, что он является результатом многолетней эволюции городского и лесного пространства. Возраст многих деревьев достигает двух сотен лет. Здесь есть собственный океанариум, площадки для игр, озера и пляжи. Для удобства пеших прогулок имеются тропинки, дорожки и красивая набережная.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                           <div class="btn-group">
+                              <a href="https://planetofhotels.com/guide/ru/kanada/vankuver/park-stenli" target="_blank">
+                              <button type="button" class="btn btn-sm btn-outline-danger">Подробно</button>
+                              </a>
+                           </div>
+                           <small class="text-muted">Ванкувер</small>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col">
+                  <div class="card shadow-sm">
+                     <img src="kitsilano.jpg" class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                     <title>Placeholder</title>
+                     <rect width="100%" height="100%" fill="#55595c"></rect>
+                     <text x="50%" y="50%" fill="#eceeef" dy=".3em"><br><b>Пляж Китсилано</b></text>
+                     <div class="card-body">
+                        <p class="card-text">Ключевая особенность пляжа – расположенный тут наиболее длинный в стране бассейн с морской подогреваемой водой (открыт только летом). В пешей доступности имеются спортплощадки, пешеходные дорожки и небольшие кафе. Вы сможете наслаждаться купанием в идеально чистом море или бассейне на фоне завораживающих горных вершин.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                           <div class="btn-group">
+                              <a href="https://nashvancouver.com/kitsilano-bich/" target="_blank">
+                              <button type="button" class="btn btn-sm btn-outline-danger">Подробно</button>
+                              </a>
+                           </div>
+                           <small class="text-muted">Ванкувер</small>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- carousel -->
+      <div id="carouselExampleIndicators" class="carousel slide"  data-bs-ride="carousel">
+         <br>
+         <h2 class="heading" id="center">Вид центра города Ванкувер</h2>
+         <br>
+         <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+         </div>
+         <div class="carousel-inner">
+            <div class="carousel-item active">
+               <img src="01.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+               <img src="02.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+               <img src="03.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+               <img src="04.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+               <img src="05.jpg" class="d-block w-100" alt="...">
+            </div>
+         </div>
+         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+         <span class="visually-hidden">Previous</span>
+         </button>
+         <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+         <span class="carousel-control-next-icon" aria-hidden="true"></span>
+         <span class="visually-hidden">Next</span>
+         </button>
+      </div>
+      <!-- Restaurants -->
+      <div class="album py-5" id="restaurant">
+         <h2 class="heading">Где вкусно поесть</h2>
+         <br>
+         <div class="container">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+               <div class="col">
+                  <div class="card shadow-sm">
+                     <img src="local.jpg" class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                     <title>Placeholder</title>
+                     <rect width="100%" height="100%" fill="#55595c"></rect>
+                     <text x="50%" y="50%" fill="#eceeef" dy=".3em"><br><b>Местная кухня</b></text>
+                     <div class="card-body">
+                        <p class="card-text">
+                        <ul>
+                           <li><a href="https://www.lecrocodilerestaurant.com/" target="_blank">Le Crocodile</a></li>
+                           <li><a href="https://www.annalena.ca/" target="_blank">AnnaLena</a></li>
+                           <li><a href="https://www.vancouverdine.com/teahouse/" target="_blank">Teahouse in Stanley Park</a></li>
+                           <li><a href="https://blackandbluesteakhouse.ca/vancouver-home/" target="_blank">Black+Blue</a></li>
+                        </ul>
+                        </p>
+                        <div class="d-flex justify-content-between align-items-center">
+                           <div class="btn-group">
+                              <a href="https://www.google.com/search?q=%D0%BB%D1%83%D1%87%D1%88%D0%B8%D0%B5+%D1%80%D0%B5%D1%81%D1%82%D0%BE%D1%80%D0%B0%D0%BD%D1%8B+%D0%B2%D0%B0%D0%BD%D0%BA%D1%83%D0%B2%D0%B5%D1%80%D0%B0&rlz=1C1GCEA_enUZ981UZ981&tbm=lcl&sxsrf=AJOqlzVIG7UTj73k4-dASpe7A5BhOwzM1g%3A1674324109741&ei=jSjMY9L3LN6V9u8PpK6ZoAs&ved=0ahUKEwiS8rKun9n8AhXeiv0HHSRXBrQQ4dUDCAk&oq=%D0%BB%D1%83%D1%87%D1%88%D0%B8%D0%B5+%D1%80%D0%B5%D1%81%D1%82%D0%BE%D1%80%D0%B0%D0%BD%D1%8B+%D0%B2%D0%B0%D0%BD%D0%BA%D1%83%D0%B2%D0%B5%D1%80%D0%B0&gs_lcp=Cg1nd3Mtd2l6LWxvY2FsEAxQAFgAYABoAHAAeACAAQCIAQCSAQCYAQA&sclient=gws-wiz-local#rlfi=hd:;si:;mv:[[49.3047111,-123.06406159999999],[49.238456199999995,-123.16237339999998]];tbs:lrf:!1m4!1u3!2m2!3m1!1e1!1m4!1u2!2m2!2m1!1e1!1m4!1u1!2m2!1m1!1e1!1m4!1u1!2m2!1m1!1e2!2m1!1e2!2m1!1e1!2m1!1e3!3sIAE,lf:1,lf_ui:9" target="_blank">
+                              <button type="button" class="btn btn-sm btn-outline-danger">Подробно</button>
+                              </a>
+                           </div>
+                           <small class="text-muted">Ванкувер</small>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col">
+                  <div class="card shadow-sm">
+                     <img src="asian.jpg" class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                     <title>Placeholder</title>
+                     <rect width="100%" height="100%" fill="#55595c"></rect>
+                     <text x="50%" y="50%" fill="#eceeef" dy=".3em"><br><b>Азиатская кухня</b></text>
+                     <div class="card-body">
+                        <p class="card-text">
+                        <ul>
+                           <li><a href="https://mikurestaurant.com/" target="_blank">Miku Vancouver</a></li>
+                           <li><a href="https://www.eatheritage.ca/" target="_blank">Heritage Asian Eatery</a></li>
+                           <li><a href="https://www.bao-bei.ca/" target="_blank">Bao Bei</a></li>
+                           <li><a href="https://chinatownbbq.com/" target="_blank">Chinatown BBQ</a></li>
+                        </ul>
+                        </p>
+                        <div class="d-flex justify-content-between align-items-center">
+                           <div class="btn-group">
+                              <a href="https://www.google.com/search?q=%D0%B0%D0%B7%D0%B8%D0%B0%D1%82%D1%81%D0%BA%D0%B0%D1%8F+%D0%BA%D1%83%D1%85%D0%BD%D1%8F+%D0%B2%D0%B0%D0%BD%D0%BA%D1%83%D0%B2%D0%B5%D1%80%D0%B0&rlz=1C1GCEA_enUZ981UZ981&tbm=lcl&sxsrf=AJOqlzXZQ9iduCLqYmHD979z2q-3PupHug%3A1674324174377&ei=zijMY5rNFvKC9u8Py_SCiAs&ved=0ahUKEwia7JvNn9n8AhVygf0HHUu6ALEQ4dUDCAk&oq=%D0%B0%D0%B7%D0%B8%D0%B0%D1%82%D1%81%D0%BA%D0%B0%D1%8F+%D0%BA%D1%83%D1%85%D0%BD%D1%8F+%D0%B2%D0%B0%D0%BD%D0%BA%D1%83%D0%B2%D0%B5%D1%80%D0%B0&gs_lcp=Cg1nd3Mtd2l6LWxvY2FsEAxQAFgAYABoAHAAeACAAQCIAQCSAQCYAQA&sclient=gws-wiz-local#rlfi=hd:;si:;mv:[[49.2940107,-123.0242306],[49.229675400000005,-123.21669209999999]];tbs:lrf:!1m4!1u3!2m2!3m1!1e1!1m4!1u2!2m2!2m1!1e1!1m4!1u1!2m2!1m1!1e1!1m4!1u1!2m2!1m1!1e2!2m1!1e2!2m1!1e1!2m1!1e3!3sIAE,lf:1,lf_ui:9" target="_blank">
+                              <button type="button" class="btn btn-sm btn-outline-danger">Подробно</button>
+                              </a>
+                           </div>
+                           <small class="text-muted">Ванкувер</small>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col">
+                  <div class="card shadow-sm">
+                     <img src="other.jpg" class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                     <title>Placeholder</title>
+                     <rect width="100%" height="100%" fill="#55595c"></rect>
+                     <text x="50%" y="50%" fill="#eceeef" dy=".3em"><br><b>Другая вкусная кухня</b></text>
+                     <div class="card-body">
+                        <p class="card-text">
+                        <ul>
+                           <li><a href="https://www.bistroabsinthe.com/" target="_blank">Absinthe Bistro</a></li>
+                           <li><a href="https://foragevancouver.com/" target="_blank">Forage</a></li>
+                           <li><a href="https://tavolavancouver.com/" target="_blank">Tavola</a></li>
+                           <li><a href="https://atasteofindiarestaurant.com/" target="_blank">A Taste Of India</a></li>
+                        </ul>
+                        </p>
+                        <div class="d-flex justify-content-between align-items-center">
+                           <div class="btn-group">
+                              <a href="https://www.google.com/search?q=%D1%80%D0%B5%D1%81%D1%82%D0%BE%D1%80%D0%B0%D0%BD%D1%8B+%D0%B2%D0%B0%D0%BD%D0%BA%D1%83%D0%B2%D0%B5%D1%80&rlz=1C1GCEA_enUZ981UZ981&tbm=lcl&sxsrf=AJOqlzUQfGyYJbvqAoBpg83-emzX2XPszQ%3A1674323746783&ei=IifMY5O7L6Xc7_UPsLiBkAs&ved=0ahUKEwiT1KmBntn8AhUl7rsIHTBcALIQ4dUDCAk&uact=5&oq=%D1%80%D0%B5%D1%81%D1%82%D0%BE%D1%80%D0%B0%D0%BD%D1%8B+%D0%B2%D0%B0%D0%BD%D0%BA%D1%83%D0%B2%D0%B5%D1%80&gs_lcp=Cg1nd3Mtd2l6LWxvY2FsEAMyBAgjECcyBggAEBYQHjoECAAQQzoLCAAQgAQQsQMQgwE6BwgAEMkDEEM6BQgAEJIDOgcIABCxAxBDOgUIABCABFAAWP4dYPciaAFwAHgAgAGUAYgBshSSAQQwLjE5mAEAoAEBwAEB&sclient=gws-wiz-local#rlfi=hd:;si:;mv:[[49.304911,-123.06016149999999],[49.234924199999995,-123.1625942]];tbs:lrf:!1m4!1u3!2m2!3m1!1e1!1m4!1u2!2m2!2m1!1e1!1m4!1u1!2m2!1m1!1e1!1m4!1u1!2m2!1m1!1e2!2m1!1e2!2m1!1e1!2m1!1e3!3sIAE,lf:1,lf_ui:9" target="_blank">
+                              <button type="button" class="btn btn-sm btn-outline-danger">Подробно</button>
+                              </a>
+                           </div>
+                           <small class="text-muted">Ванкувер</small>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- location -->
+      <br>
+      <h2 class="heading" id="location">Ванкувер на карте</h2>
+      <br>
+      <div class="map">
+         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d83327.511174602!2d-123.123904!3d49.25773545!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x548673f143a94fb3%3A0xbb9196ea9b81f38b!2z0JLQsNC90LrRg9Cy0LXRgCwg0JHRgNC40YLQsNC90YHQutCw0Y8g0JrQvtC70YPQvNCx0LjRjywg0JrQsNC90LDQtNCw!5e0!3m2!1sru!2s!4v1674145760201!5m2!1sru!2s" width="90%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+      <hr>
+      <!-- footer -->
+      <div class="footer">
+         <img src="van.png" alt="van" height="35px" class="item vanlogo">
+         <a href="tg://resolve?domain=sergeychina" class="item">
+            <button type="button" class="btn btn-outline-primary">
+               <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-telegram media" viewBox="0 0 16 16">
+                  <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.287 5.906c-.778.324-2.334.994-4.666 2.01-.378.15-.577.298-.595.442-.03.243.275.339.69.47l.175.055c.408.133.958.288 1.243.294.26.006.549-.1.868-.32 2.179-1.471 3.304-2.214 3.374-2.23.05-.012.12-.026.166.016.047.041.042.12.037.141-.03.129-1.227 1.241-1.846 1.817-.193.18-.33.307-.358.336a8.154 8.154 0 0 1-.188.186c-.38.366-.664.64.015 1.088.327.216.589.393.85.571.284.194.568.387.936.629.093.06.183.125.27.187.331.236.63.448.997.414.214-.02.435-.22.547-.82.265-1.417.786-4.486.906-5.751a1.426 1.426 0 0 0-.013-.315.337.337 0 0 0-.114-.217.526.526 0 0 0-.31-.093c-.3.005-.763.166-2.984 1.09z"></path>
+               </svg>
+               Telegram
+            </button>
+         </a>
+         <a href="https://www.instagram.com/sergeychina/" class="item">
+            <button type="button" class="btn btn-outline-danger">
+               <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-instagram media" viewBox="0 0 16 16">
+                  <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"></path>
+               </svg>
+               Instagram
+            </button>
+         </a>
+         <a href="http:/wa.me/998909420919" class="item">
+            <button type="button" class="btn btn-outline-success">
+               <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-whatsapp media" viewBox="0 0 16 16">
+                  <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"></path>
+               </svg>
+               WhatsApp
+            </button>
+         </a>
+      </div>
+      <!-- bykim -->
+      <hr>
+      <div class="bykim">
+         <img class="kim" src="ByKim.png" alt="by Kim">
+      </div>
+   </body>
+</html>
